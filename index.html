@@ -9,41 +9,43 @@
         <div id="form-container">
             <form name="airlineForm">
                 <label for="firstName">First Name: </label>
-                <input type="text" name="firstName" />
-    
+                <input type="text" name="firstName" required/>
+
                 <label for="lastName">Last Name: </label>
-                <input type="text" name="lastName" />
-    
+                <input type="text" name="lastName" required/>
+
                 <label for="age">Age: </label>
-                <input type="number" name="age" />
-    
+                <input type="number" name="age" required/>
+
                 <p>Please Choose Your Gender: </p>
-                <label for="male">Male: </label>
+                <label for="male">Male</label>
                 <input type="radio" name="gender" id="male" value="Male" />
-                <label for="female">Female: </label>
+                <label for="female">Female</label>
                 <input type="radio" name="gender" id="female" value="Female" />
-    
+                <label for="other">Prefer Not to Say</label>
+                <input type="radio" name="gender" id="other" value="Prefer Not to Say" />
+
                 <p>Please Choose Your Destination: </p>
                 <label for="location">Location: </label>
                 <select name="location">
-                    <option value="chicago">Chicago</option>
-                    <option value="newyork">New York</option>
-                    <option value="la">LA</option>
-                    <option value="other">Other</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="New York">New York</option>
+                    <option value="LA">LA</option>
+                    <option value="Other">Other</option>
                 </select>
-    
+
                 <p>Please Select Your Dietary Restrictions: </p>
                 <label for="vegetarian">Vegetarian</label>
-                <input type="checkbox" name="restrictions" value="vegetarian" />
+                <input type="checkbox" name="restrictions" value="Vegetarian" />
                 <label for="kosher">Kosher</label>
-                <input type="checkbox" name="restrictions" value="kosher" />
+                <input type="checkbox" name="restrictions" value="Kosher" />
                 <label for="lactoseFree">Lactose Free</label>
-                <input type="checkbox" name="restrictions" value="lactoseFree" />
-    
+                <input type="checkbox" name="restrictions" value="Lactose Free" />
+
                 <button type="submit">Submit Form</button>
             </form>
         </div>
-        
+
         <script src="index.js"></script>
     </body>
 
