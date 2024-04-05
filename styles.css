@@ -11,3 +11,12 @@ form {
     padding: 20px;
     background-color: tan;
 }
+
+button {
+    margin-top: 5px;
+    padding: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+}
